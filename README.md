@@ -6,7 +6,6 @@ Example 1: python3 get.py google.com <br />
 Example 2: python3 get.py<br /><br />
 
 Built on TTP T1046 from MITRE used by Chimera.
-<br>
-You'll need to pip install ifaddr
-<br>
-Build script included for py2exe
+<br /><br />
+You'll need to pip install ifaddr & py2exe. Build script included for py2exe.<br>
+Build example: python.exe build.py py2exe
