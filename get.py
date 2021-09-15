@@ -63,9 +63,6 @@ def byNet():
                         sys.exit()
                     return
  
-    
-    
-
 # Defining a target
 if len(sys.argv) == 2:
     target = socket.gethostbyname(sys.argv[1])
