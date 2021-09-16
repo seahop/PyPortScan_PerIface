@@ -51,7 +51,7 @@ def getNet():
 def doWork(ip):
     for port in ports:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        #s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         socket.setdefaulttimeout(1)
         try:
             result = s.connect_ex((ip,port))
