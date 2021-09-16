@@ -4,6 +4,7 @@ import sys
 import socket
 import ifaddr
 import ipaddress
+import threading
 
 setup(
     console=['C:\\users\\user\\desktop\\get.py'],
